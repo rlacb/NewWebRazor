@@ -1,0 +1,84 @@
+﻿@page "/"
+@inject IJSRuntime JSRuntime
+
+<PageTitle>Home</PageTitle>
+
+<h1>Great, world!</h1>
+<input @bind="UserInput" placeholder="Enter text here" />
+
+
+<button @onclick="ShowMessage">Click Me</button>
+
+<p>@Text</p>
+
+
+Welcome to your new app.
+
+@code {
+    string _text = string.Empty;
+    string _userInput = string.Empty;
+    private void ShowMessage()
+    {
+        try
+        {
+
+
+            Text = UserInput;
+        }
+        catch (Exception ex)
+        {
+
+            Console.WriteLine($"Exception occurred: {ex.Message}");
+            Text = "An error occurred while processing your request.";
+        }
+
+    }
+
+    public string Text
+    {
+
+        get => _text;
+        set
+        {
+            if (_text != value)
+            {
+                _text = value;
+                StateHasChanged();
+            }
+        }
+    }
+
+    public string UserInput
+    {
+        get => _userInput;
+        set
+        {
+            if (_userInput != value)
+            {
+                _userInput = value;
+                StateHasChanged();
+            }
+        }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await RegisterServiceWorker();
+        }
+    }
+
+    private async Task RegisterServiceWorker()
+    {
+        try
+        {
+            await JSRuntime.InvokeVoidAsync("navigator.serviceWorker.register", "/sw.js");
+            Console.WriteLine("Service Worker registered successfully.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Service Worker registration failed: {ex.Message}");
+        }
+    }
+}
