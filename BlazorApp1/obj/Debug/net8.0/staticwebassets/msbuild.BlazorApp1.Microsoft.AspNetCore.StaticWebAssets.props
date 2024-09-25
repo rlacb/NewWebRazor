@@ -4,7 +4,7 @@
       <SourceType>Package</SourceType>
       <SourceId>BlazorApp1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>/</BasePath>
+      <BasePath>dphilscan</BasePath>
       <RelativePath>BlazorApp1.styles.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>CurrentProject</AssetMode>
@@ -20,7 +20,7 @@
       <SourceType>Package</SourceType>
       <SourceId>BlazorApp1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>/</BasePath>
+      <BasePath>dphilscan</BasePath>
       <RelativePath>css/app.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -36,7 +36,7 @@
       <SourceType>Package</SourceType>
       <SourceId>BlazorApp1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>/</BasePath>
+      <BasePath>dphilscan</BasePath>
       <RelativePath>css/bootstrap/bootstrap.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -52,7 +52,7 @@
       <SourceType>Package</SourceType>
       <SourceId>BlazorApp1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>/</BasePath>
+      <BasePath>dphilscan</BasePath>
       <RelativePath>css/bootstrap/bootstrap.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -68,7 +68,7 @@
       <SourceType>Package</SourceType>
       <SourceId>BlazorApp1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>/</BasePath>
+      <BasePath>dphilscan</BasePath>
       <RelativePath>favicon.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -84,7 +84,7 @@
       <SourceType>Package</SourceType>
       <SourceId>BlazorApp1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>/</BasePath>
+      <BasePath>dphilscan</BasePath>
       <RelativePath>icon-192.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -100,7 +100,7 @@
       <SourceType>Package</SourceType>
       <SourceId>BlazorApp1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>/</BasePath>
+      <BasePath>dphilscan</BasePath>
       <RelativePath>index.html</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -116,7 +116,7 @@
       <SourceType>Package</SourceType>
       <SourceId>BlazorApp1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>/</BasePath>
+      <BasePath>dphilscan</BasePath>
       <RelativePath>sample-data/weather.json</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -132,7 +132,7 @@
       <SourceType>Package</SourceType>
       <SourceId>BlazorApp1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>/</BasePath>
+      <BasePath>dphilscan</BasePath>
       <RelativePath>sw.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -148,7 +148,7 @@
       <SourceType>Package</SourceType>
       <SourceId>BlazorApp1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>/</BasePath>
+      <BasePath>dphilscan</BasePath>
       <RelativePath>_framework/blazor.webassembly.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -164,12 +164,12 @@
       <SourceType>Package</SourceType>
       <SourceId>BlazorApp1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>/</BasePath>
+      <BasePath>dphilscan</BasePath>
       <RelativePath>_framework/blazor.webassembly.js.gz</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Alternative</AssetRole>
-      <RelatedAsset>c:\Users\Richard\NewWebRazor\BlazorApp1\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
+      <RelatedAsset>C:\Users\Richard\NewWebRazor\BlazorApp1\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
       <AssetTraitName>Content-Encoding</AssetTraitName>
       <AssetTraitValue>gzip</AssetTraitValue>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
